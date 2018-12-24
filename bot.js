@@ -1,5 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({ fetchAllMembers: true });
+const client = new Discord.Client();
+const client2 = new Discord.Client();
 const fs = require("fs");
 const userData = JSON.parse(fs.readFileSync('./userData.json', 'utf8'));
 const Canvas = require('canvas')
@@ -33,21 +35,7 @@ client.user.setGame(`*help | *invite `,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
 });
-const Discord = require("discord.js");
-const client = new Discord.Client();
-const client2 = new Discord.Client();
 
-client.on('ready', () => {
-   console.log(`----------------`);
-   console.log(`Credit Farmm - Script By : Kahrbaa `);
-   console.log(`----------------`);
-   console.log(`Loadinng`);
-   console.log(`Loadinng.`);
-   console.log(`Loadinng..`);
-   console.log(`Loadinng...`);
-   console.log(`This Bots Online ' `);
-   console.log(`----------------`);
-});
 
 
 client.on('message', message => {
