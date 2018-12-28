@@ -4,11 +4,6 @@ const client2 = new Discord.Client();
 const client3 = new Discord.Client();
 const client4 = new Discord.Client();
 const client5 = new Discord.Client();
-const client6 = new Discord.Client();
-const client7 = new Discord.Client();
-const client8 = new Discord.Client();
-const client9 = new Discord.Client();
-const client10 = new Discord.Client();
 const fs = require("fs");
 const Canvas = require('canvas')
 const jimp = require('jimp')
@@ -134,95 +129,6 @@ client5.on('message', message => {
     }
 });
 
-client6.on('message', message => {
-    if(message.content === '-راتب'){
-        message.channel.send('#daily')
-    }
-});
-
-client6.on('message', message => {
-    if(message.content === '-مبلغ'){
-        message.channel.send('#credits')
-    }
-});
-
-client6.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#rep @!         iTzAnan_Over#3675')
-    }
-});
-
-client7.on('message', message => {
-    if(message.content === '-راتب'){
-        message.channel.send('#daily')
-    }
-});
-
-client7.on('message', message => {
-    if(message.content === '-مبلغ'){
-        message.channel.send('#credits')
-    }
-});
-
-client7.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#rep @!         iTzAnan_Over#3675')
-    }
-});
-
-client8.on('message', message => {
-    if(message.content === '-راتب'){
-        message.channel.send('#daily')
-    }
-});
-
-client8.on('message', message => {
-    if(message.content === '-مبلغ'){
-        message.channel.send('#credits')
-    }
-});
-
-client8.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#rep @!         iTzAnan_Over#3675')
-    }
-});
-
-client9.on('message', message => {
-    if(message.content === '-راتب'){
-        message.channel.send('#daily')
-    }
-});
-
-client9.on('message', message => {
-    if(message.content === '-مبلغ'){
-        message.channel.send('#credits')
-    }
-});
-
-client9.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#rep @!         iTzAnan_Over#3675')
-    }
-});
-
-client10.on('message', message => {
-    if(message.content === '-راتب'){
-        message.channel.send('#daily')
-    }
-});
-
-client10.on('message', message => {
-    if(message.content === '-مبلغ'){
-        message.channel.send('#credits')
-    }
-});
-
-client10.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#rep @!         iTzAnan_Over#3675')
-    }
-});
 
 
 
@@ -296,83 +202,8 @@ if (message.content === '*spam') {
       }
 });
 
-client6.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '*spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-});
-
-client7.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '*spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-});
-
-client8.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '*spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-});
-
-client9.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '*spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-});
-
-client10.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '*spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-});
-
 client.login(process.env.BOT_TOKEN);
 client2.login(process.env.BOT_TOKEN2);
 client3.login(process.env.BOT_TOKEN3);
 client4.login(process.env.BOT_TOKEN4);
 client5.login(process.env.BOT_TOKEN5);
-client6.login(process.env.BOT_TOKEN6);
-client7.login(process.env.BOT_TOKEN7);
-client8.login(process.env.BOT_TOKEN8);
-client9.login(process.env.BOT_TOKEN9);
-client10.login(process.env.BOT_TOKEN10);
