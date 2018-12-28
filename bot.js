@@ -72,11 +72,6 @@ client2.on('message', message => {
     }
 });
 
-client3.on('message', message => {
-    if(message.content === '-راتب'){
-        message.channel.send('#daily')
-    }
-});
 
 
 
